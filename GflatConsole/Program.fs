@@ -1,3 +1,7 @@
 ﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+let lang = "F#"
+let greeting = "Hello"
+let emoji = ":-)"
+
+printfn $"{greeting} from {lang} {emoji}"
 
